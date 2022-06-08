@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+dalwhinnie<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -21,6 +21,7 @@
       </nav>
     </header>
     <main>
+      <!--Intro blurb-->
       <section>
         <img src="resources/images/scotch_main.jpg" alt="A lineup of various Scotch whiskys."
         title="A lineup of various Scotch whiskys">
@@ -28,6 +29,40 @@
           by the vast history and culture surrounding one of my favorite types: Scotch whisky.</p>
         <p>The aim of this blog is for me to practice my HTML/CSS skills as well as provide
           a vehicle for myself and others to learn more about Scotch. Join me on my journey!</p>
+      </section>
+      <!--Visitor Survey-->
+      <section>
+        <h2>Visitor Survey</h2>
+        <p>Welcome to my website! If you have a few moments, please take this brief survey!</p>
+        <form class="visitorSurvey" action="index.html" method="post">
+          <fieldset>
+            <legend>What is your name?</legend>
+            <label for="visitorName">Name:</label>
+            <input type="text" id="visitorName" name="visitorName" placeholder="your name here" required>
+          </fieldset>
+          <fieldset>
+            <legend>How much do you like scotch?</legend>
+            <label for="visitorLike">Interest in Scotch:</label>
+            <input type="range" id="visitorLike" name="visitorLike" min="Hate it!" max="Love it!">
+          </fieldset>
+          <fieldset>
+            <legend>Which of these Scotch brands are you familiar with?</legend>
+            <input id="cardhu" type="checkbox" name="visitorBrands" value="cardhu"> <label for="cardhu">Cardhu</label>
+            <input id="dalwhinnie" type="checkbox" name="visitorBrands" value="dalwhinnie"> <label for="dalwhinnie">Dalwhinnie</label>
+            <input id="erdradour" type="checkbox" name="visitorBrands" value="erdradour"> <label for="erdradour">Erdradour</label>
+            <input id="glenfarclas" type="checkbox" name="visitorBrands" value="glenfarclas"> <label for="glenfarclas">Glenfarclas</label>
+            <input id="glenmorangie" type="checkbox" name="visitorBrands" value="glenmorangie"> <label for="glenmorangie">Glenmorangie</label>
+            <input id="glenlivet" type="checkbox" name="visitorBrands" value="glenlivet"> <label for="glenlivet">Glenlivet</label>
+            <input id="highlandPark" type="checkbox" name="visitorBrands" value="highlandPark"> <label for="highlandPark">Highland Park</label>
+            <input id="arran" type="checkbox" name="visitorBrands" value="arran"> <label for="arran">Arran</label>
+            <input id="lagavulin" type="checkbox" name="visitorBrands" value="lagavulin"> <label for="lagavulin">Lagavulin</label>
+            <input id="laphroaig" type="checkbox" name="visitorBrands" value="laphroaig"> <label for="laphroaig">Laphroaig</label>
+            <input id="macallan" type="checkbox" name="visitorBrands" value="macallan"> <label for="macallan">Macallan</label>
+            <input id="talisker" type="checkbox" name="visitorBrands" value="talisker"> <label for="talisker">Talisker</label>
+          </fieldset>
+          <!--Add something here in the future with JS logic-->
+          <input type="submit" name="submit" value="Make Your Voice Heard!">
+        </form>
       </section>
     </main>
   </body>
