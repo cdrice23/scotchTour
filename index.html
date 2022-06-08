@@ -1,8 +1,9 @@
-dalwhinnie<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Demystifying the Art of Scotch Whisky</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!--Title Section-->
@@ -37,13 +38,15 @@ dalwhinnie<!DOCTYPE html>
         <form class="visitorSurvey" action="index.html" method="post">
           <fieldset>
             <legend>What is your name?</legend>
-            <label for="visitorName">Name:</label>
+            <label for="visitorName"><strong>Name:</strong></label>
             <input type="text" id="visitorName" name="visitorName" placeholder="your name here" required>
           </fieldset>
           <fieldset>
             <legend>How much do you like scotch?</legend>
-            <label for="visitorLike">Interest in Scotch:</label>
+            <label for="visitorLike"><strong>Interest in Scotch:</strong></label>
+            <label for="visitorLike"><em>Hate It!</em></label>
             <input type="range" id="visitorLike" name="visitorLike" min="Hate it!" max="Love it!">
+            <label for="visitorLike"><em>Love It!</em></label>
           </fieldset>
           <fieldset>
             <legend>Which of these Scotch brands are you familiar with?</legend>
