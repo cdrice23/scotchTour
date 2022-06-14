@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CormorantGaramond";
-  src: url("../resources/fonts/CormorantGaramond-Regular.ttf") format("ttf");
+  src: url("./resources/fonts/CormorantGaramond-Regular.ttf") format("ttf");
 }
 
 :root {
