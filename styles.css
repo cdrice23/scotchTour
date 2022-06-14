@@ -1,8 +1,8 @@
 @font-face {
   font-family: "CormorantGaramond";
-  src: url("../scotchTour/resources/fonts/CormorantGaramond-Regular.ttf") format("ttf");
+  src: url("resources/fonts/CormorantGaramond-Light.ttf") format("ttf");
 }
 
 :root {
-  font-family: CormorantGaramond-Light;
+  font-family: CormorantGaramond-Light, Garamond;
 }
