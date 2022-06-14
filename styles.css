@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "CormorantGaramond";
-  src: url("resources/fonts/CormorantGaramond-Light.ttf") format("ttf");
-}
-
-:root {
-  font-family: CormorantGaramond-Light, Garamond;
+main {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
 }
