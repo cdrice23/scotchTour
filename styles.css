@@ -1,4 +1,27 @@
 body {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 100;
+  font-weight: 400;
+  color: #371E0B;
+  background-color: rgb(169,64,7);
+}
+
+header, section {
+  background-image: linear-gradient(180deg, rgba(243, 215, 190, 0.59), rgba(243, 215, 190, 0.79));
+}
+
+div {
+  background-image: linear-gradient(180deg, rgba(220, 216, 213, 0.59), rgba(255, 255, 255, 0.79));
+}
+
+#regionBody {
+  background: url('resources/images/scotland_map.webp') no-repeat center fixed;
+  background-size: center;
+  background-color: rgb(226,190,159);
+}
+
+#historyBody {
+  background-image: linear-gradient(180deg, rgba(170,142,120,0.5), rgba(255,236,222,0.7)),url('resources/images/glenlivet_history.jpeg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
