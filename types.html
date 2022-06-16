@@ -27,15 +27,16 @@
         <a href="about.html">About Me</a>
       </nav>
     </header>
-    <main>
+    <main id="typeMain">
       <!--Description-->
-      <section>
-        <p>Scotch whiskies can largely be divided into two categories: whisky originating
-          from a single distillery and whisky as a blend of multiple single-origin whiskies.</p>
+      <section class="typeSection" id="typeHeader">
+        <img src="resources/images/whisky_tasting.jpg" alt="A sommelier inspects a glass of scotch" class="typeHeaderChild" />
+        <p class="typeHeaderChild">Scotch whiskies can largely be divided into two categories: <strong><span id="typeA">whisky originating
+          from a single distillery</span></strong> and <strong><span id="typeB">whisky as a blend of multiple single-origin whiskies.</span></strong></p>
       </section>
       <!--Whisky Types Table-->
-      <section>
-        <table>
+      <section class="typeSection">
+        <table id="typeTable">
           <tr>
             <th scope="col">Type</th>
             <th scope="col">Production Type</th>
@@ -48,7 +49,9 @@
             <th scope="row">Single-Malt Scotch Whisky</th>
             <td>Pot Still</td>
             <td>Malted Barley</td>
-            <td rowspan="2">Single Distillery</td>
+            <!-- Bug w/ hover color change; fix this later -->
+            <!-- <td rowspan="2">Single Distillery</td> -->
+            <td>Single Distillery</td>
             <td>N/A</td>
             <td>
               <ul>
@@ -62,7 +65,7 @@
             <th scope="row">Single-Grain Scotch Whisky</th>
             <td>Patent Still</td>
             <td>Malted Barley, Whole Grains of Other Malted or Unmalted Cereals</td>
-            <td></td>
+            <td>Single Distillery</td>
             <td>N/A</td>
             <td>
               <ul>
@@ -76,7 +79,9 @@
             <th scope="row">Blended Malt Scotch Whisky</th>
             <td>Pot Still</td>
             <td>Malted Barley</td>
-            <td rowspan="3">Multiple Distilleries</td>
+            <!-- Bug w/ hover color change; fix this later -->
+            <!-- <td rowspan="3">Multiple Distilleries</td> -->
+            <td>Multiple Distilleries</td>
             <td>A blend of two or more single malt Scotch whiskies from two or more
             distilleries</td>
             <td>
@@ -91,7 +96,7 @@
             <th scope="row">Blended Grain Scotch Whisky</th>
             <td>Patent Still</td>
             <td>Malted Barley, Whole Grains of Other Malted or Unmalted Cereals</td>
-            <td></td>
+            <td>Multiple Distilleries</td>
             <td>A blend of two or more single grain Scotch whiskies from two or more
             distilleries</td>
             <td>
@@ -105,7 +110,7 @@
             <th scope="row">Blended Scotch Whisky</th>
             <td>Pot Still, Patent Still</td>
             <td>Malted Barley, Whole Grains of Other Malted or Unmalted Cereals</td>
-            <td></td>
+            <td>Multiple Distilleries</td>
             <td>A blend of one or more single malt Scotch whiskies and one or more
               single grain Scotch whiskies</td>
             <td>
